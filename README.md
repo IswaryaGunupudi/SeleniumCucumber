@@ -1,15 +1,17 @@
 First, we have to add dependencies in the POM.xml file.
 
-This project is based on selenium, JSON, Testng,Maven dependencies and Assertions.
+This project is based on cucumber, feature file,step defination,runner class,Allure report and Rest assured.
 
-A locator is a way to identify elements on a page. It is the argument passed to the Finding element methods. xpath: Locates elements matching an XPath expression css selector: Locates elements matching a CSS selector id: Locates elements whose ID attribute matches the search value name: Locates elements whose NAME attribute matches the search value
+A locator is a way to identify elements on a page. It is the argument passed to the Finding element methods. 
+xpath: Locates elements matching an XPath expression 
+css selector: Locates elements matching a CSS selector 
+id: Locates elements whose ID attribute matches the search value 
+name: Locates elements whose NAME attribute matches the search value
 
--> In the first demo project, I have used datadriven,Data Driven is a methodology where a sequence of steps in the test script is run repeatedly against different input values fetched from the corresponding data source. It is one of the widely-used automation testing best practices for verifying the behavior and efficiency of tests when handling various types of input values.
+-> Cucumber reads executable specifications written in plain text and validates that the software does what those specifications say. The specifications consists of multiple examples, or scenarios.
+-> Cucumber test runner class is one of the many mechanisms using which you can run Cucumber feature file. The test runner class that will used is testng
 
--> In the second demo project, I have used testng methods,chrome webdriver and JSON. 1)The first is a collection of name/value pairs. It has other names in various programming languages but is the same structure. Whether you see it as an object, record, struct, hash table, or others, they all refer to the same thing. 2)The second data structure is an ordered list of values. Again, this is a popular data structure that may also be called an array, vector, or list, just to name a few.
+->Allure Framework is a flexible lightweight multi-language test report tool that not only shows a very concise representation of what have been tested in a neat web report form, but allows everyone participating in the development process to extract maximum of useful information from everyday execution of tests.
 
--> In the third demo project, I have created multiple users using datadriven. First the chrome driver will open the website page and next It redirects to SignUp page and here the details have been taken automatically from the code and it gets verified and the creditenals will be created.
+->Rest Assured enables you to test REST APIs using java libraries and integrates well with Maven. It has very efficient matching techniques, so asserting your expected results is also pretty straight forward. Rest Assured has methods to fetch data from almost every part of the request and response no matter how complex the JSON structures are.
 
--> In the fourth demo project, I have updated the computer and deleted the computer.
-
--> In the fifth demo project, I tried to add and verify the code
